@@ -1,0 +1,85 @@
+.header {
+  background-color: #0065ff;
+  margin-bottom: 20px;
+  color: black;
+  @media (max-width: 594.98px) {
+    padding: 20px;
+  }
+  @media (min-width: 595px) and (max-width: 991.98px) {
+    padding: 20px 50px;
+  }
+  @media (min-width: 992px) {
+    padding: 20px 100px;
+  }
+  @media (min-width: 1240px) {
+    padding: 20px 150px;
+  }
+  }
+  .header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+.auth__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ gap: 40px;
+
+}
+  .nav__item {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    &:hover {
+      opacity: 0.8;
+      background-color:  #000000;
+    }
+    }
+    
+    .nav__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+  
+    list-style: none;
+    
+    @media (max-width: 594.98px) {
+      flex-direction: column;
+    }
+    }
+
+    .nav__link {
+      font-family: sans-serif;
+      font-size: 18px;
+      padding: 5px 50px;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+      }
+      p{
+        color: antiquewhite;
+        margin: 0;
+      }
+
+      .user__nav{
+        display: flex;
+        padding: 5px;
+        gap: 170px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .user__btn{
+        margin: 0;
+        background-color: #4caf50;
+      }
